@@ -1,0 +1,17 @@
+{
+"manifest_version": 2,
+    "name": "[AwsomeTwitterCounter]",
+    "description": "[Chrome extension which brings back countdown character counter to twitter.]",
+    "version": "0.1",
+    "content_scripts": [
+        {
+            "matches": [
+                "*://twitter.com/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_end"
+        }
+    ]
+}
