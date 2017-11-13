@@ -1,8 +1,10 @@
 {
 "manifest_version": 2,
-    "name": "[AwsomeTwitterCounter]",
-    "description": "[Chrome extension which brings back countdown character counter to twitter.]",
-    "version": "0.1",
+    "name": "Awsome Twitter Counter",
+    "description": "Good old character countdown for twitter.",
+    "version": "1.0",
+    "shortname": "A Twitter Counter",
+    "homepage_url": "http://github.com/xome4ok/awsome-twitter-counter",
     "content_scripts": [
         {
             "matches": [
@@ -13,5 +15,6 @@
             ],
             "run_at": "document_end"
         }
-    ]
+    ],
+    "icons": {"128": "Twitter.svg.png"}
 }
